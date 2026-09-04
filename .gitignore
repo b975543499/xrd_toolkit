@@ -1,0 +1,10 @@
+.idea/
+.venv/
+data/*
+!data/.gitkeep
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+.DS_Store
+*.log

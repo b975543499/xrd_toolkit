@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xrd-toolkit"
+version = "0.1.0"
+description = "XRD 数据处理工具集"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+xrd-toolkit = "xrd_toolkit.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
