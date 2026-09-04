@@ -2,7 +2,7 @@
 .venv/
 data/*
 !data/.gitkeep
-outputs/
+# outputs/ 有意不忽略：保存示例输出图，供 README 引用/展示
 __pycache__/
 *.pyc
 *.egg-info/
